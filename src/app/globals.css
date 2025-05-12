@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Frame 1321315375 */
+#outer {
+  box-sizing: border-box;
+
+  width: 340px;
+  height: 310px;
+
+  /* SC 100% */
+  background: #091028;
+  /* Light/Light 20% */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px -1px;
+}
+
+/* Group 481876 */
+#inner {
+  position: absolute;
+  width: 276px;
+  height: 190px;
+  left: calc(50% - 276px / 2);
+  top: calc(50% - 190px / 2);
+}

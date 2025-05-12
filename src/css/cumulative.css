@@ -1,0 +1,14 @@
+#width {
+  box-sizing: border-box;
+
+  /* SC 100% */
+  background: #091028;
+  /* Light/Light 20% */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px -1px;
+}
