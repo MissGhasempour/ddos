@@ -88,9 +88,9 @@ export default function MitigateAttack() {
             />
           </svg>
 
-          <h1></h1>
+          <h1 className="text-green-300 ml-30 pt-5 text-2xl">492014</h1>
           <CountOfAttack />
-          <p className="mt-30 ml-15 text-center">
+          <p className="mt-20 ml-15 text-center">
             Number Of{" "}
             <span className="text-purple-600 border-b-2 px-2">Mitigated</span>{" "}
             Attacks
