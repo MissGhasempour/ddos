@@ -1,0 +1,85 @@
+#inner-icon {
+    /* Ellipse 2320 */
+
+width: 129px;
+height: 129px;
+
+/* Light/Light 10% */
+background: rgba(255, 255, 255, 0.1);
+}
+
+#time {
+    /* Frame 1321315560 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+/* position: absolute; */
+width: 192px;
+height: 72px;
+left: 237px;
+top: calc(50% - 72px/2 + 5px);
+}
+
+#timeItem {
+    /* Frame 1321315557 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 48px;
+height: 72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#maximum {
+   /* Maximum */
+
+width: 90px;
+height: 28px;
+
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 34px;
+text-align: center;
+
+/* Low/Low 100% */
+color: #78FF97;
+}
+
+#text {
+    /* Attack Duration */
+
+width: 153px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}

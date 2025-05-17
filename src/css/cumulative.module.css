@@ -1,0 +1,93 @@
+#width {
+  width: 100px;
+}
+
+#title {
+  /* Cumulative Sum of Mitigated DDoS Attacks */
+width: 421px;
+height: 31px;
+
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 37px;
+display: flex;
+align-items: center;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+}
+
+#droppedPackets {
+/* Total Number of Dropped Packets */
+
+width: 193px;
+height: 68px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+
+/* Light/Light 40% */
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#billionPackets {
+  /* Billion Packets */
+
+
+height: 16px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+text-transform: uppercase;
+
+/* Low/Low 100% */
+color: #78FF97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+#digits {
+  /* 66455.45 */
+
+width: 192px;
+height: 62px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 77px;
+display: flex;
+align-items: center;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}

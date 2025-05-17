@@ -1,26 +1,162 @@
 #title {
-  /* Frame 481928 */
+  /* TIC DDoS Radar */
+margin-left: 20px;
+/* width: 192px; */
+height: 41px;
 
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 50px;
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 43px;
+display: flex;
+/* align-items: flex-end; */
 
-  position: absolute;
-  width: 192px;
-  height: 38px;
-  left: 152px;
-  top: 32px;
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
 .txt {
-  /* Group 481875 */
+  /* The Radar report has been extracted from the data of the    DDoS detection and Mitigation system, which has been deployed and operated by the TIC company as the country's defense shield, providing effective protection against attacks. */
 
-  position: absolute;
-  width: 861px;
-  height: 50px;
-  left: 152px;
-  top: 94px;
+position: absolute;
+width: 861px;
+height: 50px;
+left: 152px;
+top: 94px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+}
+
+#siwan {
+  /* Frame 1321315522 */
+
+box-sizing: border-box;
+
+width: 61px;
+height: 22px;
+
+/* Low/Low 100% */
+border-bottom: 1px solid #78FF97;
+}
+
+#timeRange {
+  /* Frame 481937 */
+
+box-sizing: border-box;
+
+width: 155px;
+height: 32px;
+
+/* Light/Light 20% */
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#calender {
+  /* Frame 481926 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 213px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#iCalender {
+  /* Interface, Essential/calendar-schedule-1 */
+
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#time {
+  /* Frame 481925 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 102px;
+height: 25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#clock {
+  /* Interface, Essential/clock-time */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#hour {
+ /* 09:08:59 */
+
+width: 70px;
+height: 28px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
 }

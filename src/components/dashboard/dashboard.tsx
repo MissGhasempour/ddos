@@ -19,8 +19,10 @@ export default function Dashboard() {
               <MitigateAttack />
               <CumulativeAttack />
             </div>
-            <MaxBitsAttack />
-            <MaxPacketsAttack />
+            <div className="flex">
+              <MaxBitsAttack />
+              <MaxPacketsAttack />
+            </div>
           </div>
 
           <div className="flex">

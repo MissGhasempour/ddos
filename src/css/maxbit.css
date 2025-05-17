@@ -1,14 +1,173 @@
-#outer {
-  box-sizing: border-box;
-  /* width: 240px; */
-  /* SC 100% */
-  background: #091028;
-  /* Light/Light 20% */
-  border: 1px solid rgba(255, 255, 255, 0.2);
+#width{
+  width: 100px;
+}
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px -1px;
+#space-icon {
+  /* Frame 1321315522 */
+
+width: 50px;
+height: 50px;
+
+background: rgba(120, 255, 151, 0.1);
+border-radius: 43px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#title {
+  /* Maximum Attack Volumes */
+
+width: 257px;
+height: 31px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 37px;
+display: flex;
+align-items: center;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#BITS {
+  /* BITS */
+
+width: 51px;
+height: 19px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+display: flex;
+align-items: center;
+
+/* Light/Light 80% */
+color: rgba(255, 255, 255, 0.8);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+#digits {
+  /* 831.6 */
+
+width: 108px;
+height: 62px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 77px;
+
+/* Low/Low 100% */
+color: #78FF97;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#unit {
+  /* Gbps */
+
+width: 31px;
+height: 26px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+margin-left: 5px;
+
+/* Light/Light 20% */
+color: rgba(255, 255, 255, 0.2);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#text {
+  /* Maximum Volume Of The Attacks */
+
+width: 394px;
+height: 68px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#rate {
+  /* Frame 1321315581 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 384px;
+height: 27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#rate-block {
+  /* Frame 1321315466 */
+
+box-sizing: border-box;
+
+width: 93px;
+height: 27px;
+
+/* Light/Light 20% */
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }

@@ -3,11 +3,11 @@ import styles from "@/css/header.module.css";
 export default function Header() {
   return (
     <header>
-      <div className="flex">
+      <div className="flex relative">
         <h1 id={styles.title}>TIC DDoS Radar</h1>
-        <div id="vidget" className="flex absolute right-10 my-8 ">
+        <div id="vidget" className="flex absolute right-10  my-8 ">
           <div
-            id="time-range"
+            id={styles.timeRange}
             className="border rounded border-zinc-400 w-40 mx-3 px-2 h-10"
           >
             Time Range
@@ -29,13 +29,14 @@ export default function Header() {
               />
             </svg>
           </div>
-          <div className="mx-3">
+          <div className="mx-3" id={styles.calender}>
             <svg
               width="213"
               height="26"
               viewBox="0 0 213 26"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              id={styles.iCalender}
             >
               <path
                 d="M7.49813 3.99625V6.9975"
@@ -80,16 +81,25 @@ export default function Header() {
             </svg>
             {/* Saturday - 1403/09/03 */}
           </div>
-          <div className="mx-3">
+          <div className="mx-3" id={styles.time}>
             <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              id={styles.clock}
             >
               <path
-                d="M10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1"
+                d="M12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3"
+                stroke="white"
+                strokeOpacity="0.4"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M12.5 7V12.5H8"
                 stroke="white"
                 strokeOpacity="0.4"
                 strokeWidth="1.5"
@@ -97,24 +107,8 @@ export default function Header() {
                 strokeLinejoin="round"
               />
             </svg>
-            <svg
-              width="7"
-              height="8"
-              viewBox="0 0 7 8"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="relative bottom-4 left-1 "
-            >
-              <path
-                d="M5.5 1V6.5H1"
-                stroke="white"
-                strokeOpacity="0.4"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-            <p>09:08:59</p>
+
+            <p id={styles.hour}>09:08:59</p>
           </div>
         </div>
       </div>
@@ -122,9 +116,11 @@ export default function Header() {
       <div>
         <p className={styles.txt}>
           The Radar report has been extracted from the data of the 
-          <span className="text-green-600 border-b-2 px-2">SIWAN </span>   DDoS
-          detection and Mitigation system, which has been deployed and operated
-          by the TIC company as the country's defense shield, providing
+          <span className="text-green-600 border-b-2 px-2" id={styles.siwan}>
+            SIWAN{" "}
+          </span>{" "}
+            DDoS detection and Mitigation system, which has been deployed and
+          operated by the TIC company as the country's defense shield, providing
           effective protection against attacks.
         </p>
       </div>

@@ -7,92 +7,58 @@ export default function MitigateAttack() {
       <div>
         <div className="relative">
           <svg
-            width="52"
-            height="40"
-            viewBox="0 0 52 40"
+            width="276"
+            height="154"
+            viewBox="0 0 276 154"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="mt-20 ml-40"
+            className="mt-10 ml-5"
           >
-            <svg
-              width="5"
-              height="14"
-              viewBox="0 0 5 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.75 2.29156L2.75 11.2166"
-                stroke="white"
-                strokeOpacity="0.2"
-                strokeWidth="4"
-                strokeLinecap="round"
-              />
-            </svg>
-            <svg
-              width="5"
-              height="39"
-              viewBox="0 0 5 39"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute left-60"
-            >
-              <path
-                d="M2.82666 2.217L2.82666 36.217"
-                stroke="white"
-                strokeOpacity="0.2"
-                strokeWidth="4"
-                strokeLinecap="round"
-                className="absolute left-30"
-              />
-            </svg>
-            <svg
-              width="5"
-              height="27"
-              viewBox="0 0 5 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.79834 2.54156L2.79834 24.2166"
-                stroke="white"
-                strokeOpacity="0.2"
-                strokeWidth="4"
-                strokeLinecap="round"
-              />
-            </svg>
-            <svg
-              width="5"
-              height="18"
-              viewBox="0 0 5 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.77417 2.04156L2.77417 15.2166"
-                stroke="white"
-                strokeOpacity="0.2"
-                strokeWidth="4"
-                strokeLinecap="round"
-                className="absolute left-40"
-              />
-            </svg>
-
             <path
-              d="M2.85213 37.3946C2.85213 37.3946 13.5461 34.0607 26.1571 25.4605C44.6356 12.8588 46.2902 2.76963 46.2902 2.76963M46.2902 2.76963L36.2525 5.33251M46.2902 2.76963L49.8708 11.9364"
+              d="M130.774 46.0416L130.774 59.2166"
+              stroke="white"
+              strokeOpacity="0.2"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+            <path
+              d="M144.798 37.5416L144.798 59.2166"
+              stroke="white"
+              strokeOpacity="0.2"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+            <path
+              d="M158.827 25.217L158.827 59.217"
+              stroke="white"
+              strokeOpacity="0.2"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+            <path
+              d="M116.75 50.2916L116.75 59.2166"
+              stroke="white"
+              strokeOpacity="0.2"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+            <path
+              d="M112.852 39.3946C112.852 39.3946 123.546 36.0607 136.157 27.4605C154.636 14.8588 156.29 4.76963 156.29 4.76963M156.29 4.76963L146.253 7.33251M156.29 4.76963L159.871 13.9364"
               stroke="white"
               strokeOpacity="0.4"
               strokeWidth="4"
               strokeLinecap="round"
-              className="absolute left-60"
+            />
+            <path
+              d="M86.6832 126H81.7832V119.25H66.8332V115.6L82.2832 95.4H86.6832V115.1H89.6832V119.25H86.6832V126ZM82.4832 101.25L71.5832 115.25H82.4832V101.25ZM102.684 126.5C99.7344 126.5 97.4344 126.15 95.5844 125.45V121.15C97.3844 121.9 99.6844 122.3 102.384 122.3C107.884 122.3 110.484 119.05 110.484 114.7V112.8C108.234 114.4 105.384 115.2 102.884 115.2C95.9844 115.2 92.7344 111.65 92.7344 105.25C92.7344 99.15 96.2344 94.95 103.934 94.95C111.484 94.95 115.184 98.65 115.184 106.8V113.65C115.184 121.25 110.434 126.5 102.684 126.5ZM103.734 111.3C106.234 111.3 108.584 110.35 110.484 109V105.6C110.484 101.05 108.284 98.8 103.934 98.8C99.3844 98.8 97.1344 101.2 97.1344 105.05C97.1344 109.35 99.1844 111.3 103.734 111.3ZM138.649 126H119.199V123.4C120.749 119.55 123.899 116.6 127.149 113.7C131.799 109.45 133.349 107.95 133.349 104.4C133.349 101.2 131.549 99.4 127.299 99.4C124.949 99.4 122.449 99.9 120.249 100.8V96.3C122.399 95.45 125.499 94.95 128.299 94.95C134.849 94.95 138.349 98.45 138.349 104.35C138.349 108.55 136.199 111.05 132.549 114.35C128.699 117.8 126.849 119.35 125.549 122H138.649V126ZM155.637 126.65C146.337 126.65 142.637 120.8 142.637 111.1C142.637 100.9 146.037 94.95 155.637 94.95C165.187 94.95 168.687 100.9 168.687 111.1C168.687 120.8 164.937 126.65 155.637 126.65ZM155.637 122.25C161.537 122.25 163.637 117.85 163.637 111.1C163.637 103.5 161.637 99.4 155.637 99.4C149.537 99.4 147.587 103.5 147.587 111.1C147.587 117.85 149.687 122.25 155.637 122.25ZM182.317 126H177.367V100L172.617 100.8V96.5L182.317 94.95V126ZM206.166 126H201.266V119.25H186.316V115.6L201.766 95.4H206.166V115.1H209.166V119.25H206.166V126ZM201.966 101.25L191.066 115.25H201.966V101.25Z"
+              fill="#78FF97"
             />
           </svg>
 
-          <h1 className="text-green-300 ml-30 pt-5 text-2xl">492014</h1>
           <CountOfAttack />
-          <p className="mt-20 ml-15 text-center">
+          <p className="mt-2 ml-15 text-center" id={styles.text}>
             Number Of{" "}
-            <span className="text-purple-600 border-b-2 px-2">Mitigated</span>{" "}
+            <span className="border-b-2 px-2" id={styles.mitigated}>Mitigated</span>{" "}
             Attacks
           </p>
         </div>

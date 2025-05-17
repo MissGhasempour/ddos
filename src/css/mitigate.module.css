@@ -25,3 +25,44 @@
   left: calc(50% - 276px / 2);
   top: calc(50% - 190px / 2);
 }
+
+#mitigated {
+  /* Mitigated */
+width: 86px;
+height: 28px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+text-align: center;
+
+/* PRM/PRM 100% */
+color: #504CA6;
+}
+
+#text {
+  /* Number Of Attacks */
+
+width: 276px;
+height: 34px;
+
+font-family: 'Ravi';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height */
+text-align: center;
+
+/* Light/Light 100% */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
